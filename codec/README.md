@@ -307,3 +307,5 @@ def set_result(self, content: ndarray, operation: Callable[[ndarray, ndarray], n
             self.__updated_weight_buffer = operation(tmp if tmp is not None else np.asarray(0.0), content)
 ```
 
+
+
